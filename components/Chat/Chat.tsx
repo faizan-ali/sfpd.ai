@@ -36,7 +36,8 @@ export const Chat: FC<Props> = ({ messages, loading, onSend, onReset }) => {
               </div>
           </div>
 
-          <div className="flex flex-row justify-between items-center mb-4 sm:mb-8">
+          <div className="flex flex-row justify-between items-start text-left mb-4 sm:mb-8">
+
               <ResetChat onReset={onReset}/>
           </div>
       </>
